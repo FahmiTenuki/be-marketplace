@@ -18,7 +18,6 @@ class ProductTypeController extends Controller
             "data" => $data,
         ]);
     }
-
     /**
      * Store a newly created resource in storage.
      */
@@ -37,10 +36,6 @@ class ProductTypeController extends Controller
 
         return response(["massage" => "Product type created successfully"], 201);
     }
-
-
-
-
     /**
      * Display the specified resource.
      */
@@ -59,7 +54,6 @@ class ProductTypeController extends Controller
             "data" => $data,
         ]);
     }
-
     /**
      * Update the specified resource in storage.
      */
@@ -84,7 +78,6 @@ class ProductTypeController extends Controller
             "massage" => "product type updated",
         ]);
     }
-
     /**
      * Remove the specified resource from storage.
      */
